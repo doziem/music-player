@@ -3,7 +3,7 @@ import { Stack } from 'expo-router'
 import React from 'react'
 import { View } from 'react-native'
 
-const PlayListScreenLayout = () => {
+const PlaylistsScreenLayout = () => {
 	return (
 		<View style={defaultStyles.container}>
 			<Stack>
@@ -18,4 +18,4 @@ const PlayListScreenLayout = () => {
 	)
 }
 
-export default PlayListScreenLayout
+export default PlaylistsScreenLayout
